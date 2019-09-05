@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-image: url(./img/bg-photo.png);
+    width: 1440px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#border{
+    border: 2px solid orange;
+    width: 1360px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#cuba{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 227px;
+    margin-top: 0px;
+    color: white;
+}
+#explore{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    bottom: -14px;
+    position: absolute;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 19px;
+    list-style-type: none;
+}
+#nav1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+div ul {
+    border-bottom: 1px solid #b7b7b7;
+}
+div ul li {
+    padding: 20px;
+}
+div ul a{
+    width: 78px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+div ul a:link{
+    text-decoration: none;
+}
+div ul a:hover{
+    color: #D8D8D8;
+    border-bottom: 5px solid orange;
+    width: 100px;
+}
+.Why-you{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Why-youll-love-vacan{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 83px;
+    color: #4e5665;
+}
+.It-always-had{
+    margin: 40px 235px 68px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4e5665;
+}
+.read-more{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.read-more:link{
+    text-decoration: none;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px 310px;
+    text-align: center;
+}
+.number{
+    font-weight: bold;
+    margin-top: 32px;
+    color: #4e5665;
+    font-size: 22px;
+}
+.name{
+    height: 19px;
+    color: #909090;
+    font-size: 14px;
+    margin-bottom: 60px; 
+}
+.landing-cape{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    height: 2px;
+    border-bottom: 1px solid #D8D8D8;
+    width:1170px;
+}
+.What-is-Cuba{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.What-is-Cuba-about{
+    margin-top: 60px;
+    margin-bottom: 42px;
+    color: #4e5665;
+    font-size: 32px;
+    text-align: center;
+}
+.Cuba-is-like-a-prince{
+    margin: 40px 235px 68px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4e5665;
+}
+.image-mid{
+    width: 1440px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1{
+    position: absolute;
+    right: 235px;
+}
+.page2{
+    position: absolute;
+    left: 235px;
+}
+.para1{
+    width: 470px;
+    height: 289px;
+    background-color: #f8f8f8;
+    position: absolute;
+    left: 235px;
+    z-index: 2;
+}
+.para2{
+    width: 470px;
+    height: 289px;
+    background-color: #f8f8f8;
+    position: absolute;
+    right: 235px;
+    z-index: 2;
+}
+.box{
+    width: 33px;
+    height: 33px;
+    z-index: 4;
+    position: absolute;
+    margin: 19px 0px 0px 19px;
+    border-top: 1px solid #ecb84c;
+    border-left: 1px solid #ecb84c;
+}
+.box2{
+    width: 33px;
+    height: 33px;
+    z-index: 4;
+    position: absolute;
+    margin: 19px 0px 0px 418px;
+    border-top: 1px solid #ecb84c;
+    border-right: 1px solid #ecb84c;
+}
+.box-copy{
+    width: 33px;
+    height: 33px;
+    z-index: 4;
+    position: absolute;
+    margin: 237px 0px 0px 418px;
+    border-bottom: 1px solid #ecb84c;
+    border-right: 1px solid #ecb84c;
+}
+.box-copy2{
+    width: 33px;
+    height: 33px;
+    z-index: 4;
+    position: absolute;
+    margin: 237px 0px 0px 19px;
+    border-bottom: 1px solid #ecb84c;
+    border-left: 1px solid #ecb84c;
+}
+.p-tag{
+    font-family: AvenirNext;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #505050;
+    margin: 81px 40px 40px;
+}
+.h1-tag{
+    font-size: 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #4e5665;
+    z-index: 3;
+    position: absolute;
+    margin: 40px 0px 0px 40px;
+}
+
+
+
+.The-cadillacs-of-cuba{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4e5665;
+}
+.hover-for-more-infor{
+    color: #ecb84c;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.cadillac{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.The-american{
+    margin: 0px 236px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #505050;
+    margin-bottom: 60px;
+}
+.cuba-in-photos{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #4e5665;
+    margin-bottom: 60px;
+}
+.photo-ins{
+    margin-bottom: 48px;
+}
+.landing-cape-short{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    height: 2px;
+    border-bottom: 1px solid #4e5665;
+    width:270px;
+}
+.picture {
+    width: 1440px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture1{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+}
+.picture2{
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+.picture3{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+}
+.picture4{
+    position: absolute;
+    z-index: 2;
+    right: 50%;
+}
+.picture5{
+    position: absolute;
+    z-index: 3;
+}
+.footer{
+    background-color: #f8f8f8;
+    width: 1440px;
+    height: 243px;
+    padding-top: 58px;
+    display: flex;
+    flex-direction: row;
+    border-top: 0.5px solid #dedddd;
+}
+.agency{
+    margin-left: 135px;
+}
+.t-agency{
+    color: #37c491;
+    font-size: 34px;
+    font-family: AvenirNext;
+}
+#select-box{
+    width: 140px;
+    height: 32px;
+}
+.h1-head{
+    margin-bottom: 20px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    line-height: 1.33;
+    color: #4e5665;
+}
+.content-head-h1{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-family: AvenirNext;
+    line-height: 1.36;
+    letter-spacing: normal;
+    color: #505050;
+}
+.block{
+    margin: 0px  0px 0px 50px;
+}
+.end{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-bottom: 3px;
+}
+.ed-p{
+    
+}

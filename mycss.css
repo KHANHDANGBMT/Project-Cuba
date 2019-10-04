@@ -4,36 +4,38 @@
 }
 .head{
     background-image: url(./img/bg-photo.png);
-    background-size: 100%;
-    width: 100%;
-    height: 460px;
+    background-size: 100% 100%;
+    height: 640px;
     background-repeat: no-repeat;
     padding: 40px;
-    position: relative;
+    display: flex;
+    align-items: center;
 
 }
 .border{
-    border: 2px solid orange;
     width: 100%;
+    height: 100%;
+    border: 2px solid orange;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
     border-bottom: none;
+    position: relative;
 }
 .cuba{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 227px;
-    margin-top: 0px;
     color: white;
 }
 .explore{
     transform: translate(0,50%);
-    color: blue;
+    position: absolute;
+    margin-bottom: 0px;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
-    width: 100.5%;
+    width: 100.3%;
     text-align: center;
     bottom: 0;
     border:solid 2px;
@@ -41,7 +43,6 @@
     border-left: none;
     border-right: none;
     border-bottom: none;
-    position: absolute;
 }
 .list{
     display: flex;
@@ -148,7 +149,7 @@ div ul a:hover{
     color: #4e5665;
 }
 .image-mid{
-    width: 1440px;
+    width: 100%;
     height: 550px;
     position: relative;
     display: flex;
@@ -157,18 +158,18 @@ div ul a:hover{
 }
 .page1{
     position: absolute;
-    right: 235px;
+    right: 45%;
 }
 .page2{
     position: absolute;
-    left: 235px;
+    left: 45%;
 }
 .para1{
     width: 470px;
     height: 289px;
     background-color: #f8f8f8;
     position: absolute;
-    left: 235px;
+    left: 50%;
     z-index: 2;
 }
 .para2{
@@ -176,7 +177,7 @@ div ul a:hover{
     height: 289px;
     background-color: #f8f8f8;
     position: absolute;
-    right: 235px;
+    right: 50%;
     z-index: 2;
 }
 .box{
@@ -251,8 +252,8 @@ div ul a:hover{
 }
 .cadillac{
     background-image: url(./img/cadillac.png);
+    background-size: 100% 75%;
     background-repeat: no-repeat;
-    background-size: 100%;
     width: 100%;
     height: 440px;
 }
@@ -284,7 +285,8 @@ div ul a:hover{
     width:270px;
 }
 .picture {
-    width: 1440px;
+    transform:translate(5%,0);
+    width: 90%;
     height: 700px;
     position: relative;
     display: flex;
@@ -294,22 +296,22 @@ div ul a:hover{
 .picture1{
     position: absolute;
     z-index: 1;
-    left: 0px;
+    right: 65%
 }
 .picture2{
     position: absolute;
-    right: 0px;
+    left: 65%;
     z-index: 1;
 }
 .picture3{
     position: absolute;
     z-index: 2;
-    left: 50%;
+    left: 45%;
 }
 .picture4{
     position: absolute;
     z-index: 2;
-    right: 50%;
+    right: 45%;
 }
 .picture5{
     position: absolute;
@@ -317,10 +319,11 @@ div ul a:hover{
 }
 .footer{
     background-color: #f8f8f8;
-    width: 1440px;
+    width: 100%;
     height: 243px;
     padding-top: 58px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     border-top: 0.5px solid #dedddd;
 }

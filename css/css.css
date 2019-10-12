@@ -3,8 +3,8 @@
     padding: 0;
 }
 .head{
-    background-image: url(./img/bg-photo.png);
-    background-size: 100% 100%;
+    background: url(../img/bg-photo.png)no-repeat center center; 
+    background-size: cover;
     height: 640px;
     background-repeat: no-repeat;
     padding: 40px;
@@ -23,12 +23,12 @@
     border-bottom: none;
     position: relative;
 }
-.cuba{
+.content-of-head{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 227px;
     color: white;
 }
-.explore{
+.detail{
     transform: translate(0,50%);
     position: absolute;
     margin-bottom: 0px;
@@ -43,66 +43,68 @@
     border-left: none;
     border-right: none;
     border-bottom: none;
+    overflow: hidden;
 }
-.list{
+.list-navbar{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 19px;
     list-style-type: none;
 }
-.nav1{
+.navbar{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
-div ul {
+section ul {
     border-bottom: 1px solid #b7b7b7;
 }
-div ul li {
+section ul li {
     padding: 20px;
 }
-div ul a{
+section ul a{
     width: 78px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
 }
-div ul a:link{
+section ul a:link{
     text-decoration: none;
 }
-div ul a:hover{
+section ul a:hover{
     color: #D8D8D8;
     border-bottom: 5px solid orange;
     width: 100px;
 }
-.Why-you{
+.article-second{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.Why-youll-love-vacan{
+.head-second{
     text-align: center;
     font-size: 38px;
     padding-top: 83px;
     color: #4e5665;
 }
-.It-always-had{
+.content-second{
     margin: 40px 235px 68px;
     font-size: 16px;
     line-height: 1.75;
     color: #4e5665;
 }
 .read-more{
+    margin: 5px;
     color:orange;
     font-family: Arial, Helvetica, sans-serif;
 }
 .read-more:link{
     text-decoration: none;
 }
-.image{
+.image-head-second{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -121,34 +123,8 @@ div ul a:hover{
     font-size: 14px;
     margin-bottom: 60px; 
 }
-.landing-cape{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    height: 2px;
-    border-bottom: 1px solid #D8D8D8;
-    width:1170px;
-}
-.What-is-Cuba{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.What-is-Cuba-about{
-    margin-top: 60px;
-    margin-bottom: 42px;
-    color: #4e5665;
-    font-size: 32px;
-    text-align: center;
-}
-.Cuba-is-like-a-prince{
-    margin: 40px 235px 68px;
-    font-size: 16px;
-    line-height: 1.75;
-    color: #4e5665;
-}
-.image-mid{
+
+.image-extras{
     width: 100%;
     height: 550px;
     position: relative;
@@ -216,7 +192,7 @@ div ul a:hover{
     border-bottom: 1px solid #ecb84c;
     border-left: 1px solid #ecb84c;
 }
-.p-tag{
+.para-box{
     font-family: AvenirNext;
     font-size: 16px;
     line-height: 1.75;
@@ -224,7 +200,7 @@ div ul a:hover{
     color: #505050;
     margin: 81px 40px 40px;
 }
-.h1-tag{
+.head-box{
     font-size: 24px;
     font-size: 16px;
     line-height: 1.75;
@@ -234,57 +210,20 @@ div ul a:hover{
     position: absolute;
     margin: 40px 0px 0px 40px;
 }
-
-
-
-.The-cadillacs-of-cuba{
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #4e5665;
-}
-.hover-for-more-infor{
+.head-third{
     color: #ecb84c;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-bottom: 80px;
 }
-.cadillac{
-    background-image: url(./img/cadillac.png);
-    background-size: 100% 75%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 440px;
-}
-.The-american{
-    margin: 0px 236px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.7;
-    font-size: 16px;
-    color: #505050;
-    margin-bottom: 60px;
-}
-.cuba-in-photos{
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: #4e5665;
-    margin-bottom: 60px;
-}
-.photo-ins{
-    margin-bottom: 48px;
-}
-.landing-cape-short{
+.image-car{
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
-    height: 2px;
-    border-bottom: 1px solid #4e5665;
-    width:270px;
 }
-.picture {
+.carosel-picture {
     transform:translate(5%,0);
     width: 90%;
     height: 700px;
@@ -293,44 +232,41 @@ div ul a:hover{
     justify-content: center;
     align-items: center;
 }
-.picture1{
+.left-picture{
     position: absolute;
     z-index: 1;
     right: 65%
 }
-.picture2{
+.right-picture{
     position: absolute;
     left: 65%;
     z-index: 1;
 }
-.picture3{
+.between-left-picture{
     position: absolute;
     z-index: 2;
     left: 45%;
 }
-.picture4{
+.between-right-picture{
     position: absolute;
     z-index: 2;
     right: 45%;
 }
-.picture5{
+.mid-picture{
     position: absolute;
     z-index: 3;
 }
 .footer{
     background-color: #f8f8f8;
     width: 100%;
-    height: 243px;
+    height: 300px;
     padding-top: 58px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     border-top: 0.5px solid #dedddd;
 }
-.agency{
-    margin-left: 135px;
-}
-.t-agency{
+.label{
     color: #37c491;
     font-size: 34px;
     font-family: AvenirNext;
@@ -339,14 +275,14 @@ div ul a:hover{
     width: 140px;
     height: 32px;
 }
-.h1-head{
+.head-footer{
     margin-bottom: 20px;
     font-family: AvenirNext;
     font-size: 15px;
     line-height: 1.33;
     color: #4e5665;
 }
-.content-head-h1{
+.content-head-footer{
     margin-bottom: 8px;
     font-size: 18px;
     font-family: AvenirNext;
@@ -354,14 +290,7 @@ div ul a:hover{
     letter-spacing: normal;
     color: #505050;
 }
-.block{
+.block-footer{
     margin: 0px  0px 0px 50px;
 }
-.end{
-    text-align: center;
-    background-color: #f8f8f8;
-    padding-bottom: 3px;
-}
-.ed-p{
-    
-}
+

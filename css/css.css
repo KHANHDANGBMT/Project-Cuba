@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.head{
+.head {
     background: url(../img/bg-photo.png)no-repeat center center; 
     background-size: cover;
     height: 640px;
@@ -12,7 +12,7 @@
     align-items: center;
 
 }
-.border{
+.border {
     width: 100%;
     height: 100%;
     border: 2px solid orange;
@@ -23,12 +23,12 @@
     border-bottom: none;
     position: relative;
 }
-.content-of-head{
+.content-of-head {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 227px;
     color: white;
 }
-.detail{
+.detail {
     transform: translate(0,50%);
     position: absolute;
     margin-bottom: 0px;
@@ -38,93 +38,86 @@
     width: 100.3%;
     text-align: center;
     bottom: 0;
-    border:solid 2px;
-    border-color: orange;
+    border:solid 2px orange;
     border-left: none;
     border-right: none;
     border-bottom: none;
     overflow: hidden;
 }
-.list-navbar{
+.navbar-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 19px;
     list-style-type: none;
+    border-bottom: 1px solid #b7b7b7;
 }
-.navbar{
+.navbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
-section ul {
-    border-bottom: 1px solid #b7b7b7;
-}
-section ul li {
+.navbar-item {
     padding: 20px;
 }
-section ul a{
+.navbar .navbar-list .navbar-item a{
     width: 78px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
-section ul a:link{
+.navbar .navbar-list .navbar-item a:link {
     text-decoration: none;
 }
-section ul a:hover{
+.navbar .navbar-list .navbar-item a:hover {
     color: #D8D8D8;
     border-bottom: 5px solid orange;
     width: 100px;
 }
-.article-second{
+.article-second {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.head-second{
+.head-second {
     text-align: center;
     font-size: 38px;
     padding-top: 83px;
     color: #4e5665;
 }
-.content-second{
+.content-second {
     margin: 40px 235px 68px;
     font-size: 16px;
     line-height: 1.75;
     color: #4e5665;
 }
-.read-more{
+.read-more {
     margin: 5px;
     color:orange;
     font-family: Arial, Helvetica, sans-serif;
 }
-.read-more:link{
+.read-more:link {
     text-decoration: none;
 }
-.image-head-second{
+.image-head-second {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     margin: 0px 310px;
     text-align: center;
 }
-.number{
+.number {
     font-weight: bold;
     margin-top: 32px;
     color: #4e5665;
     font-size: 22px;
 }
-.name{
+.name {
     height: 19px;
     color: #909090;
     font-size: 14px;
     margin-bottom: 60px; 
 }
-
-.image-extras{
+.image-extras {
     width: 100%;
     height: 550px;
     position: relative;
@@ -132,75 +125,53 @@ section ul a:hover{
     justify-content: center;
     align-items: center;
 }
-.page1{
+.picture-small {
     position: absolute;
+}
+.left {
     right: 45%;
 }
-.page2{
-    position: absolute;
+.right {
     left: 45%;
 }
-.para1{
+.paragraph-beside-image-small {
     width: 470px;
     height: 289px;
     background-color: #f8f8f8;
     position: absolute;
+    z-index: 2;
+}
+.paragraph-left{
     left: 50%;
-    z-index: 2;
 }
-.para2{
-    width: 470px;
-    height: 289px;
-    background-color: #f8f8f8;
-    position: absolute;
+.paragraph-right {
     right: 50%;
-    z-index: 2;
 }
-.box{
+.box-icon {
     width: 33px;
     height: 33px;
     z-index: 4;
     position: absolute;
-    margin: 19px 0px 0px 19px;
+}
+.root{
     border-top: 1px solid #ecb84c;
     border-left: 1px solid #ecb84c;
+    margin: 19px 0px 0px 19px;
 }
-.box2{
-    width: 33px;
-    height: 33px;
-    z-index: 4;
-    position: absolute;
-    margin: 19px 0px 0px 418px;
-    border-top: 1px solid #ecb84c;
-    border-right: 1px solid #ecb84c;
-}
-.box-copy{
-    width: 33px;
-    height: 33px;
-    z-index: 4;
-    position: absolute;
+.opposite {
     margin: 237px 0px 0px 418px;
     border-bottom: 1px solid #ecb84c;
     border-right: 1px solid #ecb84c;
 }
-.box-copy2{
-    width: 33px;
-    height: 33px;
-    z-index: 4;
-    position: absolute;
-    margin: 237px 0px 0px 19px;
-    border-bottom: 1px solid #ecb84c;
-    border-left: 1px solid #ecb84c;
-}
-.para-box{
-    font-family: AvenirNext;
+
+.content-box {
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: normal;
     color: #505050;
     margin: 81px 40px 40px;
 }
-.head-box{
+.head-box {
     font-size: 24px;
     font-size: 16px;
     line-height: 1.75;
@@ -210,14 +181,14 @@ section ul a:hover{
     position: absolute;
     margin: 40px 0px 0px 40px;
 }
-.head-third{
+.head-third {
     color: #ecb84c;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-bottom: 80px;
 }
-.image-car{
+.image-car {
     width: auto;
     display: block;
     margin-left: auto;
@@ -232,31 +203,31 @@ section ul a:hover{
     justify-content: center;
     align-items: center;
 }
-.left-picture{
+.left-picture {
     position: absolute;
     z-index: 1;
     right: 65%
 }
-.right-picture{
+.right-picture {
     position: absolute;
     left: 65%;
     z-index: 1;
 }
-.between-left-picture{
+.between-left-picture {
     position: absolute;
     z-index: 2;
     left: 45%;
 }
-.between-right-picture{
+.between-right-picture {
     position: absolute;
     z-index: 2;
     right: 45%;
 }
-.mid-picture{
+.mid-picture {
     position: absolute;
     z-index: 3;
 }
-.footer{
+.footer {
     background-color: #f8f8f8;
     width: 100%;
     height: 300px;
@@ -266,23 +237,23 @@ section ul a:hover{
     flex-direction: row;
     border-top: 0.5px solid #dedddd;
 }
-.label{
+.label { 
     color: #37c491;
     font-size: 34px;
     font-family: AvenirNext;
 }
-#select-box{
+.select-box-content {
     width: 140px;
     height: 32px;
 }
-.head-footer{
+.head-footer {
     margin-bottom: 20px;
     font-family: AvenirNext;
     font-size: 15px;
     line-height: 1.33;
     color: #4e5665;
 }
-.content-head-footer{
+.content-head-footer {
     margin-bottom: 8px;
     font-size: 18px;
     font-family: AvenirNext;
@@ -290,7 +261,6 @@ section ul a:hover{
     letter-spacing: normal;
     color: #505050;
 }
-.block-footer{
+.block-footer {
     margin: 0px  0px 0px 50px;
 }
-
